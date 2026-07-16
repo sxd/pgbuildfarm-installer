@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img" aria-label="Terminal screenshot showing dry run summary">
+  <rect width="920" height="430" rx="14" fill="#1f2430"/>
+  <rect y="0" width="920" height="38" rx="14" fill="#111722"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#28c840"/>
+  <text x="24" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#d7dde8">
+    <tspan x="24" dy="0">~/pgbuildfarm-installer$ ./pg_buildfarm_installer.py --dry-run</tspan>
+    <tspan x="24" dy="34">DRY-RUN: create ~/pg-buildfarm</tspan>
+    <tspan x="24" dy="28">DRY-RUN: download and safely extract latest-client.tgz into client/</tspan>
+    <tspan x="24" dy="28">DRY-RUN: write ~/pg-buildfarm/build-farm.conf (0o600)</tspan>
+    <tspan x="24" dy="28">DRY-RUN: write ~/.config/systemd/user/pg-buildfarm.service</tspan>
+    <tspan x="24" dy="28">DRY-RUN: write ~/.config/systemd/user/pg-buildfarm.timer</tspan>
+    <tspan x="24" dy="44" fill="#8bd5ca">Dry-run complete.</tspan>
+    <tspan x="24" dy="34">Client: ~/pg-buildfarm/client</tspan>
+    <tspan x="24" dy="28">Config: ~/pg-buildfarm/build-farm.conf (secret not displayed)</tspan>
+    <tspan x="24" dy="28">Build system: Meson, using_meson => 1, meson_opts => [...]</tspan>
+    <tspan x="24" dy="28">Units: ~/.config/systemd/user</tspan>
+  </text>
+</svg>

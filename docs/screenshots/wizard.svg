@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="650" viewBox="0 0 920 650" role="img" aria-label="Terminal screenshot showing installer wizard choices">
+  <rect width="920" height="650" rx="14" fill="#1f2430"/>
+  <rect y="0" width="920" height="38" rx="14" fill="#111722"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#28c840"/>
+  <text x="24" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#d7dde8">
+    <tspan x="24" dy="0">~/pgbuildfarm-installer$ ./pg_buildfarm_installer.py</tspan>
+    <tspan x="24" dy="32">Installation path:</tspan>
+    <tspan x="24" dy="26">  1) ~/pg-buildfarm</tspan>
+    <tspan x="24" dy="26">  2) /opt/pg-buildfarm</tspan>
+    <tspan x="24" dy="26">  3) custom path</tspan>
+    <tspan x="24" dy="26">Choice [1]: 1</tspan>
+    <tspan x="24" dy="36">PostgreSQL repository mirror:</tspan>
+    <tspan x="24" dy="26">  1) https://git.postgresql.org/git/postgresql.git</tspan>
+    <tspan x="24" dy="26">  2) https://github.com/postgres/postgres.git</tspan>
+    <tspan x="24" dy="26">Choice [1]: 2</tspan>
+    <tspan x="24" dy="36">Default selected branches:</tspan>
+    <tspan x="24" dy="26" fill="#8bd5ca">HEAD, REL_19_STABLE, REL_18_STABLE, REL_17_STABLE, REL_16_STABLE</tspan>
+    <tspan x="24" dy="36">Build schedule:</tspan>
+    <tspan x="24" dy="26">  1) daily</tspan>
+    <tspan x="24" dy="26">  2) twice daily</tspan>
+    <tspan x="24" dy="26">  3) four times daily</tspan>
+    <tspan x="24" dy="26">  4) custom systemd OnCalendar</tspan>
+    <tspan x="24" dy="36">PostgreSQL build system:</tspan>
+    <tspan x="24" dy="26">  1) make / configure</tspan>
+    <tspan x="24" dy="26">  2) Meson</tspan>
+    <tspan x="24" dy="26">Choice [2]: 2</tspan>
+    <tspan x="24" dy="36">Meson option preset:</tspan>
+    <tspan x="24" dy="26">  1) common hacker/assertion build: -Dcassert=true -Ddebug=true -Dtap_tests=enabled</tspan>
+    <tspan x="24" dy="26">  2) feature buildfarm-style build: -Dcassert=true -Ddebug=true ...</tspan>
+  </text>
+</svg>

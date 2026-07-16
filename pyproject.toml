@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "network: requires external network access",
+  "slow: long-running integration test",
+]
+

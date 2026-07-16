@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" role="img" aria-label="Terminal screenshot showing dependency check output">
+  <rect width="920" height="300" rx="14" fill="#1f2430"/>
+  <rect y="0" width="920" height="38" rx="14" fill="#111722"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#28c840"/>
+  <text x="24" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#d7dde8">
+    <tspan x="24" dy="0">~/pgbuildfarm-installer$ ./pg_buildfarm_installer.py --check-only</tspan>
+    <tspan x="24" dy="34">Missing prerequisites: Mozilla::CA</tspan>
+    <tspan x="24" dy="34">Proposed install command (not run): sudo apt install libmozilla-ca-perl</tspan>
+    <tspan x="24" dy="54" fill="#8bd5ca"># The installer reports dependencies only; it never installs packages.</tspan>
+  </text>
+</svg>
